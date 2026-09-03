@@ -1,0 +1,21 @@
+# Local credentials and vault data
+.auth.json
+auth.json
+auth.json.bak
+accounts.vault
+master-key.dpapi
+pending-login.json
+
+# Runtime / generated local state
+runtime/
+login/
+logs/
+*.log
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
