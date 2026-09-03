@@ -6,7 +6,7 @@ Gerenciador local de múltiplas contas do Codex para Windows, mantido por **ofmr
 
 > Repositório oficial deste projeto: `ofmrmatte/Codex-Account-Manager`. Projeto independente da comunidade; não é um produto da OpenAI e não implica afiliação ou endosso da OpenAI.
 
-![Codex Account Manager — captura com informações pessoais ocultadas](docs/codex-account-manager-redacted.jpg)
+![Codex Account Manager — captura com informações pessoais ocultadas](docs/codex-account-manager-redacted.svg)
 
 ## Principais recursos
 
