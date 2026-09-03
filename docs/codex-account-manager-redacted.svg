@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="840" viewBox="0 0 1360 840">
+<rect width="1360" height="840" fill="#f6f5f2"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.muted{fill:#6f6a63}.small{font-size:13px}.card{fill:#fff;stroke:#d6d2cc;stroke-width:1.2}.btn{fill:#151515}.outline{fill:#fff;stroke:#d6d2cc}.barbg{fill:#ebe9e5}.bar{fill:#333}.redact{fill:#d4d1cc}.green{fill:#dff2e4;stroke:#9ccfac}.gtext{fill:#287a42}
+</style>
+<text x="28" y="50" class="t muted" font-size="12" letter-spacing="3">LOCAL • WINDOWS</text>
+<text x="28" y="104" class="t" font-size="42" font-weight="700">Codex Account Manager</text>
+<text x="28" y="145" class="t muted" font-size="16">Contas do Codex em um único perfil, sem duplicar seus projetos ou histórico. Limites inativos</text>
+<text x="28" y="168" class="t muted" font-size="16">atualizam automaticamente a cada 60 s.</text>
+<rect x="925" y="42" width="205" height="58" rx="12" class="card"/><circle cx="944" cy="72" r="5" fill="#2e9b58"/><rect x="960" y="58" width="130" height="10" rx="5" class="redact"/><rect x="960" y="78" width="115" height="8" rx="4" class="redact"/>
+<line x1="28" y1="201" x2="1134" y2="201" stroke="#d4d0ca"/>
+<rect x="28" y="223" width="162" height="42" rx="10" class="btn"/><text x="43" y="250" fill="#fff" font-family="Arial" font-size="15">Importar conta atual</text>
+<rect x="202" y="223" width="170" height="42" rx="10" class="outline"/><text x="217" y="250" class="t" font-size="15">Adicionar outra conta</text>
+<rect x="383" y="223" width="135" height="42" rx="10" class="outline"/><text x="398" y="250" class="t" font-size="15">Atualizar limites</text>
+<text x="885" y="250" class="t muted" font-size="13">☑ Reiniciar Codex ao ativar (recomendado)</text>
+<text x="28" y="305" class="t" font-size="20" font-weight="700">Contas</text><text x="28" y="327" class="t muted small">3 contas cadastradas</text>
+<rect x="28" y="343" width="360" height="322" rx="16" class="card"/>
+<text x="47" y="377" class="t" font-size="17" font-weight="700">ofmrmatte 1</text><rect x="47" y="389" width="150" height="9" rx="4" class="redact"/>
+<text x="47" y="430" class="t small">plus</text><text x="47" y="469" class="t small">5 horas</text><text x="320" y="469" class="t muted small">0% usado</text><rect x="47" y="479" width="300" height="8" rx="4" class="barbg"/>
+<text x="47" y="515" class="t small">Semanal</text><text x="305" y="515" class="t muted small">100% usado</text><rect x="47" y="526" width="300" height="8" rx="4" class="barbg"/><rect x="47" y="526" width="300" height="8" rx="4" class="bar"/>
+<text x="47" y="569" class="t muted" font-size="11">atualizado há 30s · atualização segura</text><rect x="47" y="596" width="155" height="42" rx="10" class="btn"/><text x="103" y="622" fill="#fff" font-family="Arial" font-size="15">Ativar</text><rect x="214" y="596" width="155" height="42" rx="10" class="outline"/><text x="267" y="622" fill="#a33" font-family="Arial" font-size="15">Remover</text>
+<rect x="401" y="343" width="360" height="322" rx="16" fill="#fff" stroke="#97938d" stroke-width="2"/>
+<text x="420" y="377" class="t" font-size="17" font-weight="700">ofmrmatte 2</text><rect x="420" y="389" width="150" height="9" rx="4" class="redact"/><rect x="420" y="412" width="42" height="22" rx="11" class="green"/><text x="430" y="427" class="gtext" font-family="Arial" font-size="11">Ativa</text>
+<text x="420" y="469" class="t small">5 horas</text><text x="686" y="469" class="t muted small">34% usado</text><rect x="420" y="479" width="300" height="8" rx="4" class="barbg"/><rect x="420" y="479" width="102" height="8" rx="4" class="bar"/>
+<text x="420" y="515" class="t small">Semanal</text><text x="666" y="515" class="t muted small">80% usado</text><rect x="420" y="526" width="300" height="8" rx="4" class="barbg"/><rect x="420" y="526" width="240" height="8" rx="4" class="bar"/>
+<text x="420" y="569" class="t muted" font-size="11">atualizado há 17 min · conta ativa</text><rect x="420" y="596" width="155" height="42" rx="10" fill="#fafafa" stroke="#e3e0db"/><text x="457" y="622" class="muted" font-family="Arial" font-size="15">Conta ativa</text><rect x="587" y="596" width="155" height="42" rx="10" class="outline"/><text x="640" y="622" fill="#a33" font-family="Arial" font-size="15">Remover</text>
+<rect x="774" y="343" width="360" height="322" rx="16" class="card"/>
+<text x="793" y="377" class="t" font-size="17" font-weight="700">ofmrmatte 3</text><rect x="793" y="389" width="160" height="9" rx="4" class="redact"/>
+<text x="793" y="430" class="t small">plus</text><text x="793" y="469" class="t small">5 horas</text><text x="1065" y="469" class="t muted small">0% usado</text><rect x="793" y="479" width="300" height="8" rx="4" class="barbg"/>
+<text x="793" y="515" class="t small">Semanal</text><text x="1035" y="515" class="t muted small">78% usado</text><rect x="793" y="526" width="300" height="8" rx="4" class="barbg"/><rect x="793" y="526" width="234" height="8" rx="4" class="bar"/>
+<text x="793" y="569" class="t muted" font-size="11">atualizado há 28s · atualização segura</text><rect x="793" y="596" width="155" height="42" rx="10" class="btn"/><text x="849" y="622" fill="#fff" font-family="Arial" font-size="15">Ativar</text><rect x="960" y="596" width="155" height="42" rx="10" class="outline"/><text x="1013" y="622" fill="#a33" font-family="Arial" font-size="15">Remover</text>
+<line x1="28" y1="695" x2="1134" y2="695" stroke="#d4d0ca"/>
+<text x="28" y="730" class="t" font-size="14" font-weight="700">Vault local protegido</text><text x="28" y="752" class="t muted" font-size="12">Os auth.json ficam criptografados com AES-256-GCM; a chave mestre é protegida pelo Windows DPAPI.</text>
+<text x="28" y="805" class="t muted" font-size="11">Projeto oficial • ofmrmatte</text><text x="1010" y="805" class="t muted" font-size="11">captura com dados pessoais ocultados</text>
+</svg>
