@@ -1,0 +1,21 @@
+{
+  "name": "codex-account-manager",
+  "version": "1.2.2",
+  "private": true,
+  "description": "Local multi-account manager for Codex on Windows",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check lib/vault.js && node --check lib/codex.js && node --check lib/dpapi.js"
+  },
+  "license": "MIT",
+  "author": "Matheus Ferreira (ofmrmatte)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofmrmatte/Codex-Account-Manager.git"
+  },
+  "homepage": "https://github.com/ofmrmatte/Codex-Account-Manager"
+}
