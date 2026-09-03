@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Codex Account Manager</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">LOCAL • WINDOWS</div>
+        <h1>Codex Account Manager</h1>
+        <p class="subtitle">Contas do Codex em um único perfil, sem duplicar seus projetos ou histórico. Limites inativos atualizam automaticamente a cada 60 s.</p>
+      </div>
+      <div class="runtime">
+        <span id="runtimeDot" class="dot"></span>
+        <div>
+          <strong id="runtimeLabel">Conectando…</strong>
+          <small id="runtimeDetail"></small>
+        </div>
+      </div>
+    </header>
+
+    <section class="toolbar">
+      <button id="importBtn" class="button primary">Importar conta atual</button>
+      <button id="loginBtn" class="button">Adicionar outra conta</button>
+      <button id="refreshBtn" class="button">Atualizar limites</button>
+      <label class="toggle">
+        <input id="restartToggle" type="checkbox" checked>
+        <span>Reiniciar Codex ao ativar (recomendado)</span>
+      </label>
+    </section>
+
+    <section class="notice" id="firstRunNotice">
+      <div>
+        <strong>Como cadastrar suas outras contas</strong>
+        <p>Clique em “Adicionar outra conta”. O portal inicia um login ChatGPT isolado e abre a autenticação no navegador. Nenhuma janela PowerShell é necessária.</p>
+      </div>
+      <button id="dismissNotice" class="iconButton" aria-label="Fechar">×</button>
+    </section>
+
+    <section id="loginPanel" class="loginPanel" hidden>
+      <div class="loginPanelText">
+        <strong id="loginPanelTitle">Login isolado em andamento</strong>
+        <p id="loginPanelMessage">Conclua a autenticação no navegador.</p>
+      </div>
+      <div class="loginPanelActions">
+        <a id="loginLink" class="button primary linkButton" target="_blank" rel="noopener noreferrer">Abrir login do ChatGPT</a>
+        <button id="finishLoginBtn" class="button" hidden>Concluir login</button>
+        <button id="cancelLoginBtn" class="button">Cancelar</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionHeader">
+        <div>
+          <h2>Contas</h2>
+          <p id="accountSummary">Carregando…</p>
+        </div>
+      </div>
+      <div id="accounts" class="accounts"></div>
+    </section>
+
+    <section class="security">
+      <div>
+        <strong>Vault local protegido</strong>
+        <p>Os auth.json ficam criptografados com AES-256-GCM; a chave mestre é protegida pelo Windows DPAPI para o seu usuário.</p>
+      </div>
+      <div class="securityMeta">
+        <span>127.0.0.1</span>
+        <span>Sem nuvem</span>
+        <span>Sem cópia de sessions</span>
+      </div>
+    </section>
+
+    <footer>
+      <span>Projeto oficial • ofmrmatte</span>
+      <button id="shutdownBtn" class="textButton">Encerrar gerenciador</button>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
